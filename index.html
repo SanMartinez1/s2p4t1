@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+	<div class="T"><h1> Animación con sonido </h1></div>
+<link rel="stylesheet" href="estilo/lale.css ">
+<div class="a1"></div>
+<div class="a2"></div>
+<div class="a3"></div>
+<div class="a4"></div>
+
+<div>
+    <button onclick="la()" style="position: absolute;top: 80%; left: 46%; width: 150px; height: 100px; z-index: 10; background: #2EFEC8; border-radius: 20px; border;"> Inicia la animación </button>
+</div>
+
+<div> <audio id="player" src="mimi.OGG" autoplay preload loop controls></div>
+</audio>
+
+
+	<video id="vide" class="kk" preload="auto" volume="50"/>
+<source src="nana.mp4" type="video/mp4" /></video/>
+  
+<script>
+	function la() {
+		document.getElementById('player').play()
+	    document.getElementById('vide').play()
+			}
+</script>
+
+</body>
+</html>

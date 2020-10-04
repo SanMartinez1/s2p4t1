@@ -1,0 +1,50 @@
+.T{
+position: absolute;
+top: 15px;
+left: 550px;
+z-index: 10;
+}
+
+.kk{
+	position: absolute;
+	top: 100px;
+	left: 420px;
+	height: 400px;
+	z-index: 555515;
+}
+.a1{
+position: absolute;
+top: 0px;
+left: 0px;
+height: 350px;
+width: 700px;
+background: #58FAF4;
+z-index: 1;
+}
+.a2{
+position: absolute;
+top: 0px;
+left: 700px;
+height: 350px;
+width: 666px;
+background: #81DAF5;
+z-index: 1;
+}
+.a3{
+position: absolute;
+top: 350px;
+left: 0px;
+height: 307px;
+width: 700px;
+background: #81BEF7;
+z-index: 1;
+}
+.a4{
+position: absolute;
+top: 350px;
+left: 700px;
+height: 307px;
+width: 666px;
+background: #00FFFF;
+z-index: 1;
+}
